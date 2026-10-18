@@ -1,0 +1,36 @@
+{
+  "repository": "https://github.com/chichina/recall-flow",
+  "commit": "a9f55d51ed28a6e87a854e1a92db485fd5102bdf",
+  "files": {
+    "README.md": {
+      "sha256": "6d9aa25fbee956f6440b42687d1201c78f3f1f2da2cf13735b36b4726ee3e947",
+      "bytes": 2279
+    },
+    "index.html": {
+      "sha256": "a95490cc584b1b1ddb66f44abd3d71dbe322e6264a5b42913d6d0200637f7242",
+      "bytes": 2037
+    },
+    "app.js": {
+      "sha256": "24389ece151ce3e5c3228b9465218c0c1accc12259dfcc59c5c6a5e055f651a1",
+      "bytes": 29657
+    },
+    "core.js": {
+      "sha256": "d2fd0268993c67d7dc0cb2b178d0f5bc257b853d6f004927b28ea2cb39a24138",
+      "bytes": 18147
+    },
+    "style.css": {
+      "sha256": "c72f93d5d293584f4c803c4a2f75bd0aba8b686f04421452294c7d9ca5ef51dd",
+      "bytes": 13024
+    }
+  },
+  "client_version": "2.0",
+  "schema_version": "2.0",
+  "local_changes": [
+    "frozen template with automatic data bundle",
+    "strict source versions and safe JSON",
+    "conservative cutoff planner and local save",
+    "input drafts and explicit user edits"
+  ],
+  "runtime_network": "none except same-origin loopback save",
+  "upstream_write": false
+}

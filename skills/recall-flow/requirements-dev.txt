@@ -1,0 +1,5 @@
+-r knowledge-cards-coach/requirements.txt
+Pillow==12.3.0
+reportlab==5.0.1
+playwright==1.64.0
+anki==26.9.3

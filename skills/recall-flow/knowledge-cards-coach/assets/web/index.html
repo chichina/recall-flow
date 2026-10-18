@@ -1,0 +1,14 @@
+<!doctype html>
+<html lang="zh-CN">
+<head><meta charset="UTF-8"><meta name="viewport" content="width=device-width,initial-scale=1"><meta http-equiv="Content-Security-Policy" content="default-src 'self'; script-src 'self'; style-src 'self'; img-src 'self' data: blob:; connect-src 'self'; object-src 'none'; base-uri 'none'; form-action 'none'">
+<meta name="theme-color" content="#183f36"><link rel="icon" href="data:,">
+<title>知行卡片 · Knowledge Cards Coach</title><link rel="stylesheet" href="./style.css"></head>
+<body>
+<div class="shell">
+<aside class="sidebar"><a class="brand" href="./" aria-label="知行卡片首页"><span class="brand-icon">知</span><span>知行卡片<small>KNOWLEDGE COACH</small></span></a><div class="nav-label">你的学习空间</div><nav id="navigation" aria-label="主要导航"></nav><div class="sidebar-foot"><span class="dot"></span> 本地学习，持续进步<p>固定的学习空间<br>不断更新的知识与证据</p><span class="version">v2.0 · 数据留在当前浏览器</span></div></aside>
+<div class="workspace"><header class="topbar"><span id="breadcrumb">学习空间 / 今日计划</span><div class="pack-control"><label for="pack-select">学习包</label><select id="pack-select"></select></div></header><main id="main" tabindex="-1"></main><footer>知行卡片 <span>从记住，到真正理解。</span><span>本地规则辅助安排 · 外部 Skill 提供语义评估</span></footer></div>
+</div>
+<div id="toast" role="status" aria-live="polite"></div>
+<dialog id="edit-dialog"><form id="edit-form"><h2>保存为学习包新修订</h2><p>旧版与历史答题保留；此修改将产生新 revision。</p><label>卡片正面<textarea id="edit-front" required></textarea></label><label>卡片背面<textarea id="edit-back" required></textarea></label><div class="actions"><button type="button" id="edit-cancel" class="secondary">取消</button><button type="submit">保存新修订</button></div></form></dialog>
+<script type="module" src="./app.js"></script>
+</body></html>
